@@ -1,0 +1,8 @@
+framework module "NPCSDK" {
+	header "ref.h"
+    header "NPCSDK.objc.h"
+    header "Universe.objc.h"
+    header "NPCSDK.h"
+
+    export *
+}
